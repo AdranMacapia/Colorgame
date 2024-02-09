@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coloring Game</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div id="colorPalette">
+    </div>
+    <canvas id="canvas"></canvas>
+    <div class="color-legend">
+        <h3>Color Legend:</h3>
+        <ul>
+          <li><span style="color: red;">Red</span> - Trichotomy Axiom</li>
+          <li><span style="color: green;">Green</span> - Distributive Axiom</li>
+          <li><span style="color: blue;">Blue</span> - Transitive Axiom</li>
+          <li><span style="color: yellow;">Yellow</span> - Associative Axiom</li>
+          <li><span style="color: orange;">Orange</span> - Distributive Axiom</li>
+          <li><span style="color: cyan;">Cyan</span> - Commutative Axiom</li>
+          <li><span style="color: brown;">Brown</span> - Addition or Multiplication Axiom</li>
+          <li><span style="color: pink;">Pink</span> - Existence of Additive or Multiplicative Inverse</li>
+          <li><span style="color: violet;">Violet</span> - Existence of Additive or Multiplicative Identity</li>
+        </ul>
+    </div>      
+    <button id="submitBtn">Submit</button>
+    <div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="scoreText"></p>
+    <button id="retryBtn">Retry</button>
+  </div>
+</div>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
